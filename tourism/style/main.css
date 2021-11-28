@@ -1,0 +1,248 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: text1;
+    src: url(/fonts/text1.tif);
+}
+
+html, body, main {
+    height: 100%;
+    font-family: text1;
+    background-color:rgb(9, 71, 7)
+}
+
+.first {
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/img5.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    background-color: black;
+}
+
+.first {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .first:first-of-type {
+    animation: showup 20s backwards;
+  }
+  .first:last-of-type {
+    width: 0px;
+    
+  }
+  .first:last-of-type span {
+    margin-left: -355px;
+   
+  }
+  @keyframes showup {
+    0% {
+    opacity: 0;
+    }
+    20% {
+    opacity: 1;
+    }
+    80% {
+    opacity: 1;
+    }
+    100% {
+    opacity: 0;
+    }
+  }
+  
+  @keyframes slidein {
+    0% {
+    margin-left: -800px;
+    }
+    20% {
+    margin-left: -800px;
+    }
+    35% {
+    margin-left: 0px;
+    }
+    100% {
+    margin-left: 0px;
+    }
+  }
+  
+  @keyframes reveal {
+    0% {
+    opacity: 0;
+    width: 0px;
+    }
+    20% {
+    opacity: 1;
+    width: 0px;
+    }
+    30% {
+    width: 355px;
+    }
+    80% {
+    opacity: 1;
+    }
+    100% {
+    opacity: 0;
+    width: 355px;
+    }
+  }
+
+
+.tourism {
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 20px;
+}
+ .text-container {
+    width: 40%;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.first-line {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    opacity: 0.5;
+    line-height: 1;
+    color: white;
+}
+
+.second-line {
+    text-transform: uppercase;
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    line-height: 1;
+    color: white;
+}
+
+.third-line {
+    font-size: 20px;
+    color: white;
+}
+
+.second {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.gallery-container {
+    width: 60%;
+    max-width: 1000px;
+}
+
+.img-container {
+    width: 100%;
+    display: flex;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.img1 {
+    width: 55%;
+}
+
+img1 {
+    width: 1000px;
+    height: 300px;
+}
+
+.wrapper {
+    margin-left: 20px;
+}
+
+.img2 {
+    margin-bottom: 20px;
+}
+
+.gallery-text {
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.img4 {
+    width: 85%;
+    height: 100%;
+}
+
+.gallery-header {
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+.gallery-p {
+    font-size: 18px;
+}
+
+.last-container {
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    padding: 0 25%;
+    background-image: url(../img/img1.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: text1;
+}
+
+.last-header{
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.last-text {
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.img5 {
+    width: 100%;
+    height: 100%;
+}
+.tourism {
+    font-size: 50px;
+    color: white
+}
+
+footer {
+    width: 100%;
+}
+
+a {
+    color: rgb(138, 103, 103)
+}
+
